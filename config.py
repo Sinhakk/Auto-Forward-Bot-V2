@@ -5,7 +5,7 @@ class Config:
     API_HASH = environ.get("API_HASH", "YOUR_API_HASH")
     BOT_TOKEN = environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN") 
     BOT_SESSION = environ.get("BOT_SESSION", "bot") 
-    DATABASE_URI = environ.get("DATABASE", "mongodb+srv://chhjgjkkjhkjhkjh@cluster0.xowzpr4.mongodb.net/")
+    DATABASE_URI = environ.get("DATABASE", "YOUR")
     DATABASE_NAME = environ.get("DATABASE_NAME", "forward-bot")
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", 'OWNER_ID').split()]
 
